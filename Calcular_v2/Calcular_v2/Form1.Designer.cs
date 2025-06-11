@@ -94,6 +94,7 @@
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
+            FormClosing += Form1_FormClosing;
             ((System.ComponentModel.ISupportInitialize)NU_Numero).EndInit();
             ResumeLayout(false);
             PerformLayout();
